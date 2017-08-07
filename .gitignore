@@ -1,0 +1,16 @@
+# Compiled class file
+*.class
+build/*
+
+#IntelliJ
+.idea/*
+*.iml
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+.gradle/*
