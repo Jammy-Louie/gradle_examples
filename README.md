@@ -18,7 +18,7 @@ a `build.gradle` is used for build configurations, add plugins, list library dep
 Print out all tasks from the root project
 
 ```
-./gradlew taks
+./gradlew tasks
 ```
 
 ### JAVA PROJECTS
