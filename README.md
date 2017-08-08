@@ -86,12 +86,12 @@ for example if you were trying to build a jar without running the tests you can 
 ./gradlew build -x test
 ```
 
-##Basic Example
+## Basic Example
 
 Include in this example is a simple java application which outputs *"Hello World!!"*. This Project uses the `build.gradle` file to build an executable jar.
 
 
-###Key Points
+### Key Points
 
 * when using the `./gradlew clean build` command to build a clean `jar`, the `jar` file will be located under `/build/libs/<jar_name><version_number>.jar`
 * To build an executable `jar` you need to do one of the following.
