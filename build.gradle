@@ -1,7 +1,16 @@
 apply plugin: 'java'
 
+repositories {
+   mavenCentral()
+}
+
 jar {
     manifest {
         attributes 'Main-Class': 'io.pivotal.GradleSample'
     }
+}
+
+dependencies {
+   compile 'org.apache.commons:commons-lang3:3.6'
+   testCompile 'junit:junit:4.+'
 }
